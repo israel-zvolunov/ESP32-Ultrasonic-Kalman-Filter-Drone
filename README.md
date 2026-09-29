@@ -34,12 +34,15 @@ The following layout represents the practical hardware integration, showcasing t
 
 ---
 
-## 📐 Enclosure Design
+## 📐 Enclosure & Drone Integration
 Custom standalone enclosure designed in Fusion 360 to securely house the payload components underneath the F450 quadcopter chassis while maintaining its center of gravity:
 
-![Custom 3D-Printed Enclosure](Hardware/enclosure_view.png)
+| 3D Enclosure View | Integrated Drone Payload |
+| --- | --- |
+| ![Custom 3D-Printed Enclosure](Hardware/enclosure_view.png) | ![Drone Assembly View](Hardware/drone_assembly_view.png) |
 
 ---
+
 
 ## 📁 Repository Directory Structure
 * `/Firmware` : Contains the production C++ code (`esp32_ultrasonic_kalman_telemetry.ino`) for the ESP32 microcontroller, utilizing hardware interrupts and non-blocking timers.
@@ -52,7 +55,8 @@ Custom standalone enclosure designed in Fusion 360 to securely house the payload
   * `Drone_Box_Body.3mf` — Main chassis.
   * `Drone_Box_Lid.3mf` — Secure interlocking cover.
   * `schematic_wiring_diagram.png` — Real-world wiring schematic.
-  * `enclosure_view.png` — Image/Photo of the 3D enclosure.
+    * `enclosure_view.png` — Image of the 3D enclosure box.
+  * `drone_assembly_view.png` — Photo of the payload integrated onto the F450 drone.
 
 ---
 
