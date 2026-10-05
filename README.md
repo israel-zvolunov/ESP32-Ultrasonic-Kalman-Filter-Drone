@@ -49,6 +49,7 @@ Custom standalone enclosure designed in Fusion 360 to securely house the payload
 * `/Simulation` : Complete MATLAB physics and mathematical modeling files:
   * `acoustic_wave_fdtd_simulation.m` — 1D FDTD acoustic propagation.
   * `kalman_filter_model_comparison_gui_exported.m` — Object-Oriented MATLAB App Designer dashboard comparing CV and CA models.
+  * `kalman_filter_model_comparison_gui.mlapp` — App Designer binary file for direct layout editing in MATLAB.
 * `/GroundStation` : Live diagnostic and telemetry tools running on the ground PC:
   * `ground_station_telemetry_dashboard.m` — Real-time 30Hz UDP telemetry receiver and absolute error plotter.
 * `/Hardware` : Contains the Cirkit Designer wiring layout, enclosure image, and production-ready 3D files designed in Fusion 360:
